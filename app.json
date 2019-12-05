@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/pofile/pofile",
+    "pages/category/category",
+    "pages/personal/personal",
+    "pages/sales/sales",
+    "pages/community/community",
+    "pages/input/input",
+    "pages/wxml/wxml",
+    "components/my-cpn/my-cpn",
+    "components/my-style/my-style",
+    "components/swiper/swiper",
+    "components/my-prop/my-prop",
+    "components/my-event/my-event",
+    "components/footer/footer"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#28FF28",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "优境校友小店",
+    "backgroundColor": "#CEFFCE",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#40D0E0",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/tabbar/home.png",
+        "selectedIconPath": "assets/tabbar/home_active.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "assets/tabbar/category.png",
+        "selectedIconPath": "assets/tabbar/category_active.png"
+      },
+      {
+        "pagePath": "pages/sales/sales",
+        "text": "售卖",
+        "iconPath": "assets/tabbar/sales.png",
+        "selectedIconPath": "assets/tabbar/sales_active.png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "社区",
+        "iconPath": "assets/tabbar/community.png",
+        "selectedIconPath": "assets/tabbar/community_active.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "少主de",
+        "iconPath": "assets/tabbar/personal.png",
+        "selectedIconPath": "assets/tabbar/personal_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
